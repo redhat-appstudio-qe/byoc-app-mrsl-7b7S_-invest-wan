@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jyeb
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-sknb-tenant/byoc-app-mrsl/jyeb@sha256:5b88ad8baedd59f3c5c185aaf36180098b68e377734e2ee936c607393c5de9f0
         name: my-java-quarkus
         ports:
         - containerPort: 8081
